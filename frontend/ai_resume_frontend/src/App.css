@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+.card {
+  width: 700px;
+  padding: 40px;
+  background: #111827;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.upload input {
+  margin-bottom: 20px;
+}
+
+.analyze-btn {
+  background: #6366f1;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.analyze-btn:hover {
+  background: #4f46e5;
+}
+
+.result {
+  margin-top: 30px;
+  text-align: left;
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
